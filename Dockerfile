@@ -1,4 +1,4 @@
-FROM python:alpine3.18
+FROM python:alpine3.20
 
 # use PROXY_ARGS to pass flags to the proxy via command line
 # see the README for supported flags.
