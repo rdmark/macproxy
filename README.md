@@ -61,6 +61,8 @@ Then launch the container with `docker run` (see below) or `docker compose up`. 
 docker run --rm -p 5000:5000 macproxy
 ```
 
+The below advanced options can be passed to the container through the `PROXY_ARGS` environment variable.
+
 Advanced Options
 ================
 
