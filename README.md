@@ -47,8 +47,15 @@ python3 proxy.py --port 5001
 Docker
 ======
 
-With the bundled Dockerfile, you can run Macproxy either through `docker run` (see below) or `docker compose up`.
-The examples assume the default port `5000`.
+With the bundled Dockerfile, you can run Macproxy in a container through the power of Docker Engine.
+
+Either build an image yourself with `docker build`, or pull the [latest image from Docker Hub](https://hub.docker.com/r/rdmark/macproxy):
+
+```
+docker pull rdmark/macproxy:latest
+```
+
+Then launch the container with `docker run` (see below) or `docker compose up`. The examples assume the default port `5000`.
 
 ```
 docker run --rm -p 5000:5000 macproxy
